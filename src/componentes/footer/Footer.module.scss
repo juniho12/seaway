@@ -1,0 +1,128 @@
+.footer {
+    background-color: #1d1d1d;
+    padding: 30px 200px;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+
+}
+
+.footer2 {
+    background-color: #1d1d1d;
+    padding: 15px 100px;
+    justify-content: space-between;
+    div {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #D3D2D1
+    }
+}
+
+.trip {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.gridFooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    a {
+        font-weight: 500;
+        font-size: 15px;
+        color: #FFF;
+    }
+}
+
+.titleEnd, .subEnd {
+    color: #FFF;
+    text-align: left;
+    
+}
+
+.titleEnd {
+    font-weight: 500;
+    font-size: 21px;
+}
+.subEnd {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px !important;
+}
+
+
+@media only screen and (min-width: 960px) {
+    .subEnd {
+        max-width: 300px;
+        position: unset !important;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .footer {
+        display: grid !important;
+        padding: 15px 5% !important;
+        grid-template-columns: 1fr;
+    }
+
+    .midiasFlex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .midiasFooter {
+        margin: 0 !important;
+    }
+    .gridFooter {
+        margin-top: 50px !important;
+        display: grid !important;
+        margin-bottom: 30px !important;
+        grid-template-columns: 1fr !important;
+    }
+    .gridFlexMobile {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        border-bottom: 1px solid #FFF;
+        padding-bottom: 10px;
+    }
+    .subEnd {
+        display: none;
+    }
+    .maxWidthunset {
+        margin: 15px 0 !important;
+        max-width: unset !important;
+    }
+    .titleEnd {
+        width: 100%;
+        &:after {
+            content: '+';
+            float: right;
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 50%;
+            color: #312A25;
+            background: #FFF;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .footer2 {
+        white-space: nowrap;
+        padding: 15px 5% !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .menuAll {
+        display: none;
+    }
+}

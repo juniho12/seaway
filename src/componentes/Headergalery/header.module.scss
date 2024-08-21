@@ -1,0 +1,64 @@
+.link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+    .widthImgHeader {
+       width: 30px !important;
+    }
+    .telefoneDesk {
+        display: none !important;
+    }
+    .menuMobile {
+        opacity: 0;
+        position: absolute;
+    }
+    .menuMobileButton {
+        display: grid;
+        grid-row-gap: 10px;
+        div {
+            height: 2px;
+            width: 30px;
+            background-color: #FFFFFF;
+        }
+    }
+    .menuMobile {
+        opacity: 0;
+        position: fixed;
+        right: -100px;
+    }
+    .menuMobile {
+        display: grid !important;
+    }
+    .midiasFlex {
+        position: fixed;
+        right: 12px;
+        margin-top: -6px;
+    }
+    .midiasFooter {
+        display: grid !important;
+    }
+   
+}
+
+@media only screen and (min-width: 960px) {
+    .menuMobile {
+        display: none;
+    }
+    .telefoneDesk {
+        color: #FFF;
+    }
+}
+
+.menuGallery {
+    background-color: #1d1d1d;
+    color: #FFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+

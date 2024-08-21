@@ -1,0 +1,34 @@
+{
+  "name": "quiosque",
+  "version": "0.1.0",
+  "homepage": "https://www.quiosquesecia.com.br/novo/",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-grid-gallery": "^1.0.0",
+    "react-gtm-module": "^2.0.11",
+    "react-iframe": "^1.8.5",
+    "react-photo-album": "^1.16.1",
+    "react-scroll": "^1.8.7",
+    "react-slick": "^0.29.0",
+    "react-transition-group": "^4.4.5",
+    "rebass": "^4.0.7",
+    "sass": "^1.50.0"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4"
+  }
+}

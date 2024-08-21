@@ -1,0 +1,103 @@
+.contato {
+    max-width: 1260px;
+    margin: 0 auto 50px !important;
+    justify-content: center;
+    gap: 72px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px; 
+   
+    margin: 0 auto;
+}
+.subtitle {
+    margin: 40px 0 !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #313134;
+}
+.titleorcamento {
+    background: #1d1d1d;
+    border-radius: 2px;
+    width: 347px;
+    height: 41px;
+    text-align: center;
+    margin: 0 auto !important;
+    a {
+        color: #FFF;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+.title {
+    background: #f0f005;
+    border-radius: 50px;
+    width: 181px;
+    height: 60px;
+    margin: 50px auto 0 !important;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    div {
+        color: #1D1D1D;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 60px;
+    }
+}
+
+.gridQuem {
+    max-width: 1260px;
+    margin: 0 auto !important
+}
+
+
+.title2 {
+    color: #0496f1;
+    font-size: 30px;
+
+}
+@media only screen and (min-width: 960px) {
+   .titleMobile, .subtitleMobile, .subtitleMobil1e {
+        display: none;
+   }
+}
+@media only screen and (max-width: 960px) {
+    .titleorcamento {
+        width: 100%;
+    }
+    .contato {
+        display: grid !important;
+        grid-template-areas: 'a' 'b' 'c';
+        margin-top: 15px !important;
+        grid-row-gap: 50px !important;
+        margin-bottom: 0 !important;
+    }
+    .mobile {
+        display: none;
+    }
+    .titleMobile {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1; 
+        max-width: 60%;
+        white-space: nowrap;
+    }
+    .subtitleMobile {
+        margin: 0 0 25px 0 !important;
+        font-weight: 400;
+        font-size: 16px;
+
+        line-height: 19px;
+        color: #313134;      
+    }
+  }

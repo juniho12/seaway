@@ -1,0 +1,48 @@
+.gridQuem {
+    max-width: 1260px;
+    margin:  0 auto !important;
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    color: #FFF;
+    place-items: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.praia {
+    background-image: url(/img/praia.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+.passeios {
+    background-image: url(/img/morro.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.itens {
+    display: grid;
+    place-items: center;
+    color: #1074bc;
+    gap: 10px;
+}
+
+
+.title2 {
+    color: #0496f1;
+    font-size: 30px;
+
+}
